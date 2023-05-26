@@ -1,0 +1,36 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF1F1;
+}
+.container {
+    // max-width: 1280px;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 64px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+button{
+    border: none;
+    background-color: #F83232;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+input:focus{
+    outline: none;
+}

@@ -1,0 +1,33 @@
+.header {
+    background-color: rgba(#B50E0E,1);
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    height: 60px;
+    &__logo {
+            color: #fff;
+            font-weight: 600;
+            font-size: 24px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+    }
+    &__menu{
+        display: flex;
+        flex-direction: row;
+        & ul a{
+                font-weight: 500;
+                text-decoration: none;
+                color: #fff;
+            
+        }
+
+    }
+}
+.login a, .signin a {
+    color: #F51414 !important;
+}
